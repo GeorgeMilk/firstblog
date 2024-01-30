@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Cheat Sheet</title>
+	</head>
+	<body>
+		<a href="blog.html">My (totally not racist) blog!</a>
+		<hr>
+		<!-- I have no idea about what the hell I am doing BTW, butt these here are headings -->
+		<h1>Heading One</h1>
+		<h2>Heading Two</h2>
+		<h3>Heading Three</h3>
+		<h4>Heading Four</h4>
+		<h5>Heading Five</h5>
+		<h6>Heading Six</h6>
+		<!-- Paragraphs -->
+		<p>
+			Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</strong> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <a href="http://google.com">Duis</a> aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <a href="http://google.com" target="_blank">Duis</a> aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<!-- Lists -->
+		<ul>
+			<li>List Item 1 (Bananas)</li>
+			<li>List Item 2 (More bananas, we have monkeys to feed)</li>
+			<li>List Item 3 (One hat)</li>
+			<li>List Item 4 (A rocket launcher, to act as a dispenser to throw the bananas)</li>
+		</ul>
+
+		<ol>
+			<li>List Item 1 (Bananas)</li>
+			<li>List Item 2 (More bananas, we have monkeys to feed)</li>
+			<li>List Item 3 (One hat)</li>
+			<li>List Item 4 (A rocket launcher, to act as a dispenser to throw the bananas)</li>
+		</ol>
+		<!-- Tables (use for tabular data only) -->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Brad Sand</td>
+					<td>gobbleondeez@gmail.com</td>
+					<td>26</td>
+				</tr>
+				<tr>
+					<td>John Friendship</td>
+					<td>nibberliciouscommies@hotmail.com</td>
+					<td>51</td>
+				</tr>
+				<tr>
+					<td>Ellie Ham</td>
+					<td>flowery@hotmail.com</td>
+					<td>21</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<hr>
+		<br>
+		<!-- Forms -->
+		<form action="process.php" method="POST"> <!-- I actually don't know what "action" and "method" do -->
+			<div>
+				<label>Name</label>
+				<input type="text" name="name" placeholder="Enter your name"> <!-- The use that the "name" tag has is unknown to me -->
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Message</label> <!-- If you need more text than a word or something of the sort, use "textarea" -->
+				<textarea name= "message"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Sex</label>
+				<select name="sex">
+					<option value=""></option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age">
+			</div>
+			<br>
+			<div>
+				<label>Birthday</label>
+				<input type="date" name="birthday">
+			</div>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+		<br>
+		<!-- Buttons! -->
+		<button>Click For Free!</button> <!-- Actually you need Javascript to use this button stuff -->
+		<br>
+		<!-- Image -->
+		<a href="images/walthu.png">
+			<img src="images/walthu.png" alt="I forgor my glasses at home waltuh meme" width="800"> <!-- "alt" value is what appears if the image is not found -->
+		</a>
+		<!-- Quotations -->
+		<blockquote cite="http://x.com">
+			"I love balls"
+		</blockquote>
+		<p>I love <abbr title="booba">balls</abbr></p>
+		<p>this garbage is all from an <cite>HTML crash course</cite> on YouTube</p>
+		<div style="margin-top: 50px"></div>
+	</body>
+</html>
