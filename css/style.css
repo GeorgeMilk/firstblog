@@ -10,13 +10,13 @@ body{
 p{
 	color: red;
 	font-weight: bold;
+	display:inline;
 }
 
 /* to call a class type "." + "name of class" */
 .spoiler{
 	background-color: yellow;
 	color: red;
-	display: inline;
 }
 
 .spoiler-text{
