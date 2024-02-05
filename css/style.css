@@ -10,7 +10,7 @@ body{
 p{
 	color: red;
 	font-weight: bold;
-	display:inline;
+	display: inline;
 }
 
 a{
@@ -30,14 +30,17 @@ a:active{
 .spoiler{
 	background-color: yellow;
 	color: red;
+	display: inline;
 }
 
 .spoiler-text{
 	visibility: hidden;
+	display: inline;
 }
 
 .spoiler:hover .spoiler-text{
 	visibility: visible;
+	display: inline;
 }
 
 .box1{
