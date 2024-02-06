@@ -26,6 +26,9 @@ a:active{
 	color:blue;
 }
 
+.clr{
+	clear: both;
+}
 .button{
 	background-color: yellow;
 	color: black;
@@ -125,3 +128,12 @@ a:active{
 	padding: 5px;
 	width:90%;
 }
+
+.block{
+	box-sizing: border-box;
+	float:left;
+	width:33.3%;
+	border: black double 10px;
+	background-color: whitesmoke;
+}
+
