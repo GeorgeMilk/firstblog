@@ -25,7 +25,7 @@ a:hover{
 a:active{
 	color:blue;
 }
-
+/* When you float stuff, you should clear it after, so you don't mess everything up*/
 .clr{
 	clear: both;
 }
@@ -39,6 +39,12 @@ a:active{
 
 .button:hover{
 	background-color: purple;
+	color:red;
+}
+
+.fixme{
+	position: fixed;
+	bottom: 100px;
 }
 
 /* to call a class type "." + "name of class" */
@@ -164,4 +170,25 @@ a:active{
 #mainblock h3{
 	color: red;
 	margin-bottom: 10px;
+}
+
+.positioningbox{
+	width: 850px;
+	height: 500px;
+	border: double black 10px;
+	margin-top: 40px;
+	position: relative;
+	background-color: whitesmoke;
+}
+/* The position of the header is absolute, relative to the div*/
+.positioningbox h1{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+}
+
+.positioningbox h2{
+	position: absolute;
+	right: 200px;
+	bottom: 70px;
 }
