@@ -137,3 +137,31 @@ a:active{
 	background-color: whitesmoke;
 }
 
+#mainblock{
+	margin-top: 20px;
+	float: left;
+	width: 60%;
+	background-color: black;
+	padding: 15px;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	margin-top: 20px;
+	float: right;
+	width: 30%;
+	background-color: black;
+	padding: 15px;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+#sidebar p, #mainblock p{
+	color:whitesmoke;
+}
+
+#mainblock h3{
+	color: red;
+	margin-bottom: 10px;
+}
