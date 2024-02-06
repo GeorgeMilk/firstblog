@@ -26,6 +26,18 @@ a:active{
 	color:blue;
 }
 
+.button{
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: solid black;
+}
+
+.button:hover{
+	background-color: purple;
+}
+
 /* to call a class type "." + "name of class" */
 .spoiler{
 	background-color: yellow;
@@ -76,10 +88,40 @@ a:active{
 .categories{
 	background-color: orange;
 	padding: 20px;
+	margin-bottom: 30px;
 	border: 10px black double;
 	text-align: center;
 }
 
+.categories h2{
+	border-bottom: double black 10px;
+}
+
 .categories ul{
 	list-style-type: none;
+}
+
+.categories li{
+	border-bottom: double black 10px;
+}
+
+.myform {
+	padding: 10px;
+	background-color: orange;
+	border: 10px black double;
+}
+
+.myform .formgroup{
+	padding-bottom: 10px;
+}
+
+.myform label{
+	display: block;
+	color: red;
+	font-weight: bold;
+}
+
+.myform textarea{
+	padding: 5px;
+	width:90%;
 }
