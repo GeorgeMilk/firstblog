@@ -179,16 +179,24 @@ a:active{
 	margin-top: 40px;
 	position: relative;
 	background-color: whitesmoke;
+	background-image: url("../images/flornece.jpg");
+	background-size: 850px 500px;
 }
 /* The position of the header is absolute, relative to the div*/
 .positioningbox h1{
 	position: absolute;
 	left: 100px;
 	top: 20px;
+	color: green;
+	font-weight: bolder;
+	background-color: black;
 }
 
 .positioningbox h2{
 	position: absolute;
 	right: 200px;
 	bottom: 70px;
+	color: green;
+	font-weight: bolder;
+	background-color: black;
 }
